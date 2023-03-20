@@ -1,0 +1,7 @@
+@import "../base.css";
+:host, :root {
+    --w-color-secondary-hue: 326;
+    --w-color-secondary-saturation: 100%;
+    --w-color-secondary-lightness: 74%;
+    }
+

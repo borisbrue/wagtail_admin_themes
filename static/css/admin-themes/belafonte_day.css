@@ -1,0 +1,33 @@
+@import "../baseGPT.css";
+:root{
+    --primary-pink: hsl(327, 100%, 72%);
+   
+    --secondary-green: hsl(135, 94%, 54%);
+    --white: hsl(0, 0%, 97%);
+    --border-gray: hsl(0deg 0% 13.33%);
+    --hover-blue: hsl(205.22deg 29.11% 46.47%);
+    --background-dark: hsl(232, 9%, 15%);
+    --header-divider: hsl(0deg 0% 8.24%);
+    --warning-yellow: hsl(37.16deg 60.36% 56.47%);
+    --text-purple: hsl(232, 19%, 50%);
+    --critical-red: hsl(11.54deg 65% 39.22%);
+    --white: hsl(0deg 0% 96.08%);
+    --background-dark: hwb(0deg 13.33% 86.67%);
+    --primary-pink: hsl(265, 89%, 78%);
+    --sidebar-dark: hsl(232, 14%, 15%);
+    --sidebar-medium: hsl(0deg 0% 31.37%);
+    --w-color-borders: hsl(0deg 0% 31.37%);
+    --sidebar-footer: hsl(319.26deg 34.18% 46.47%);
+    --w-color-accent-dark: hsl(205.22deg 29.11% 46.47%);
+    --w-color-accent-light: hsl(0deg 0% 81.57%);
+    --w-color-accent-dark-border: hsl(0deg 0% 8.24%);
+    --w-color-borders-dark: hsl(236, 23%, 28%);
+    --w-color-blue-dark: hsl(233, 13%, 13%);
+    --w-color-blue-medium: hsl(205.22deg 29.11% 46.47%);
+    --w-color-accent-blue-light: hsl(205.82deg 36.74% 57.84%);
+    --w-color-accent-green-light: hsl(78.16deg 35.19% 42.35%);
+    --w-color-accent-pink-light: hsl(327, 100%, 72%);
+    --w-color-accent-yellow-light: hsl(37.16deg 60.36% 56.47%);
+    --w-color-accent-red-light: hsl(11.54deg 65% 39.22%);
+    --w-color-accent-green-dark: hsl(78 35% 11% / 1);
+}

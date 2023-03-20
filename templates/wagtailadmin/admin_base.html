@@ -1,0 +1,14 @@
+{% extends "wagtailadmin/admin_base.html" %}
+{% load wagtailadmin_tags static %}
+
+{% block extra_css %}
+{{ block.super }}
+{% if request.user.is_authenticated and request.user.wagtail_userprofile.admin_theme%}
+{% with admin_theme=request.user.wagtail_userprofile.admin_theme %}
+{% if admin_theme.css_file %}
+<link rel="stylesheet" href="{% static 'css/admin-themes/' %}{{ admin_theme.css_file }}">
+{% endif %}
+{% endwith %}
+{% endif %}
+
+{% endblock %}

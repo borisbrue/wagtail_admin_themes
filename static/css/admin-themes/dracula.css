@@ -1,0 +1,6 @@
+@import "../baseGPT.css";
+:host, :root {
+    --w-color-secondary-hue: 31;
+    --w-color-secondary-saturation: 100%;
+    --w-color-secondary-lightness: 71%;
+    }
