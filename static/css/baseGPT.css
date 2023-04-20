@@ -29,7 +29,7 @@
      --w-color-accent-yellow-light: hsl(60, 89%, 50%);
      --w-color-accent-red-light: hsl(0, 100, 67);
      --w-color-accent-green-dark: hsl(135, 94% 2%);
-
+     --input-bg: hsl(232, 14%, 31%);
      --w-color-black-hue: 0;
  --w-color-black-saturation: 0%;
  --w-color-black-lightness: 0%;
@@ -239,8 +239,8 @@
  border-radius: 3px 3px 0 0;
  color: var(--white);
  }
- w-slim-header {
- background-color: var(--input-bg);
+ .w-slim-header {
+ background-color: var(--input-bg) !important;
  border-color: var(--sidebar-footer);
  }
  .sidebar-menu-item--active {
@@ -328,6 +328,9 @@
  .listing tbody tr, .listing tbody tr:first-child {
  border-top: 1px dashed var(--w-color-borders-dark);;
  }
+ .listing tbody tr:hover {
+    background-color: var(--w-color-blue-medium);
+}
  .listing {
  color: var(--w-color-white);
  

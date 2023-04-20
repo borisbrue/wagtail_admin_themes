@@ -1,4 +1,8 @@
 from wagtail.core import hooks
+from wagtail_tenants.utils import (
+    get_allowed_features,
+    get_tenant_aware_apps,
+)
 from .panels import CustomUserSettingsPanel
 
 

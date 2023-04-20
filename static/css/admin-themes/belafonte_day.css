@@ -1,7 +1,7 @@
 @import "../baseGPT.css";
 :root{
     --primary-pink: hsl(327, 100%, 72%);
-   
+    --input-bg: hsl(232, 14%, 31%);
     --secondary-green: hsl(135, 94%, 54%);
     --white: hsl(0, 0%, 97%);
     --border-gray: hsl(0deg 0% 13.33%);
